@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/pokedex" />
+
+    <ImageView
+        android:id="@+id/ImagenPokemon"
+        android:layout_width="203dp"
+        android:layout_height="203dp"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginBottom="11dp"
+        android:translationZ="10dp" />
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="286dp"
+        android:layout_toEndOf="@+id/ImagenPokemon"
+        android:fontFamily="@font/pkmn"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/atk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="258dp"
+        android:layout_toEndOf="@+id/ImagenPokemon"
+        android:fontFamily="@font/pkmn"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/def"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="230dp"
+        android:layout_toEndOf="@+id/ImagenPokemon"
+        android:fontFamily="@font/pkmn"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/spd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="203dp"
+        android:layout_toEndOf="@+id/ImagenPokemon"
+        android:fontFamily="@font/pkmn"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/satk"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="177dp"
+        android:layout_toEndOf="@+id/ImagenPokemon"
+        android:fontFamily="@font/pkmn"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sdef"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="150dp"
+        android:layout_toEndOf="@+id/ImagenPokemon"
+        android:fontFamily="@font/pkmn"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="442dp"
+        android:fontFamily="@font/pkmn"
+        android:gravity="center"
+        android:text="Stats"
+        android:textSize="28sp"
+        android:translationZ="10dp" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/pkmn"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:translationZ="10dp" />
+
+
+</RelativeLayout>

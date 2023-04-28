@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/pokedex"
+        android:clipChildren="false"/>
+
+    <ImageView
+        android:id="@+id/ImagenPokemon"
+        android:layout_width="203dp"
+        android:layout_height="203dp"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginBottom="76dp"
+        android:translationZ="10dp" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="228dp"
+        android:layout_toEndOf="@+id/ImagenPokemon"
+        android:fontFamily="@font/pkmn"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="284dp"
+        android:layout_toEndOf="@+id/ImagenPokemon"
+        android:fontFamily="@font/pkmn"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/pkmn"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:translationZ="10dp" />
+
+    <Button
+        android:id="@+id/btnType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="65dp"
+        android:fontFamily="@font/pkmn"
+        android:text="Tipo" />
+
+    <Button
+        android:id="@+id/btnStast"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/pkmn"
+        android:text="Stats" />
+
+
+</RelativeLayout>
